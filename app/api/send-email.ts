@@ -32,7 +32,7 @@ export async function sendMail(data) {
   `;
 
   const transporter = nodemailer.createTransport({
-    secure: true,
+    // secure: true,
     host: process.env.TRANSPORTER_HOST,
     port: 465,
     auth: {

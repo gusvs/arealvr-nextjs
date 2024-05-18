@@ -29,7 +29,7 @@ export const OrderForm = ({closingModal}: OrderFormProps) => {
       return;
     }
 
-    fetch(`/api`, {
+    fetch(`:3000/api`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
