@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import ImageGallery from "react-image-gallery";
 import s from "./PhotoGallery.module.css";
 

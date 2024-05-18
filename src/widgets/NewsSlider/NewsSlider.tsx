@@ -1,6 +1,6 @@
-// "use client";
-import ImageGallery from "react-image-gallery";
+'use client';
 import s from "./NewsSlider.module.css";
+import ImageGallery from "react-image-gallery";
 
 export const NewsSlider = () => {
   const images = [
@@ -48,6 +48,7 @@ export const NewsSlider = () => {
       }
     }
   ];
+
 
   return (
     <div className={s.NewsSlider}>
