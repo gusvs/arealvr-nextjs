@@ -1,0 +1,60 @@
+.nav {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  left: 20px;
+  z-index: 199;
+  display: flex;
+  align-items: center;
+  background-color: #ff6fef;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.burgerBtn span,
+.burgerBtn span::before,
+.burgerBtn span::after {
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  left: 50%;
+  margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+}
+.burgerBtn span::before,
+.burgerBtn span::after {
+  content: "";
+  display: block;
+  transition: 0.4s;
+}
+.burgerBtn span::before {
+  transform: translateY(-5px);
+}
+.burgerBtn span::after {
+  transform: translateY(5px);
+}
+
+/*variant 1 - krestik */
+/* .burgerBtnActive span {
+	height: 0;
+  }
+  .burgerBtnActive span::before {
+	transform: rotate(45deg);
+  }
+  .burgerBtnActive span::after {
+	transform: rotate(-45deg);
+  } */
+
+/*variant 2 - strelochka */
+.burgerBtnActive span::before {
+  transform: rotate(-35deg);
+  width: 10px;
+  transform-origin: left bottom;
+}
+.burgerBtnActive span::after {
+  transform: rotate(35deg);
+  width: 10px;
+  transform-origin: left top;
+}

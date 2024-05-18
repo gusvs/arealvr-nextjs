@@ -1,0 +1,16 @@
+.description {
+    max-width: 90%;
+    margin: 0 auto 2em;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+@media (max-width: 991.98px) {
+    .description {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 575.98px) {
+    .description {
+        font-size: 1.1rem;
+    }
+}

@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+  // output: 'export',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -1,0 +1,74 @@
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 50px;
+  left: 0;
+  transform: translateX(-130%);
+  transition: all 0.2s;
+  z-index: 100;
+}
+
+.menu.active {
+  transform: translateX(0);
+}
+.blur {
+  width: 100vw;
+  height: 100vh;
+  left: 30%;
+  backdrop-filter: blur(2px);
+  position: absolute;
+  top: -50px;
+}
+
+.menuContent {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  margin-top: -50px;
+}
+.menuHeader {
+  padding: 10px;
+  font-size: 2rem;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.menuContent ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.menuContent ul li {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  margin-left: -3em;
+}
+.menuContent ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.menuContent a.navItemActive {
+  color: #ff6fef;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .menuContent {
+    width: 100%;
+  }
+  .blur {
+    backdrop-filter: none;
+    width: 0;
+  }
+}

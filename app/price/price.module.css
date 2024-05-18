@@ -1,0 +1,37 @@
+.priceBlock {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    border: 1px solid #ff6fef;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+section div.priceBlock:last-of-type {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cell {
+    text-align: center;
+    border: 1px solid #ff6fef;
+    padding: 10px;
+}
+
+.cellTime {
+    background-color: #ff6fef;
+    color: #000;
+}
+
+.dopinfo {
+    font-size: 0.9rem;
+    max-width: 900px;
+    margin: 1em auto 0;
+}

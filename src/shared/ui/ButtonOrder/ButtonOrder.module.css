@@ -1,0 +1,26 @@
+.buttonOrder {
+    background-color: #9c27b0;
+    color: #ffffff;
+    height: 50px;
+    width: 250px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    display: block;
+    cursor: pointer;
+    border-radius: 1.5em;
+    margin: 0 auto;
+    border: none;
+    position: fixed;
+    bottom: 10px;
+    left: 10%;
+}
+.buttonOrder:hover {
+    box-shadow: 0 0 0 2px #e550f0;
+}
+
+@media (max-width: 575.98px) {
+    .buttonOrder {
+        width: 170px;
+        font-size: 1.1rem;
+    }
+}

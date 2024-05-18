@@ -1,0 +1,137 @@
+.form {
+    position: relative;
+    background: rgba(0, 0, 0, 0.81);
+    box-shadow: 0 0 7px 5px #f9f;
+    border-radius: 5px;
+    max-width: 380px;
+    min-width: 320px;
+    padding: 1em 1.5em 1em;
+}
+
+.title {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+.buttonClose {
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.formButton {
+    width: 100%;
+    background: #484848;
+    box-shadow: 0 1px 0 #fd5cfd;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formButton:active {
+    transform: scale(0.98);
+}
+
+.input,
+.select
+{
+    margin-bottom: 1rem;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center left 1rem;
+    background-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    padding-left: 3rem;
+    padding-right: 0.3rem;
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #111;
+    height: 2.5rem;
+}
+
+.textarea {
+    height: 5rem;
+}
+
+.dateArea {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/*.input[type="date"] {*/
+/*    min-height: 2rem;*/
+/*}*/
+
+.input::placeholder, .textarea::placeholder, .select::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+.iconName {
+    background-image: url(./icons/user-icon.svg);
+}
+
+.iconPhone {
+    background-image: url(./icons/phone-icon.svg);
+}
+
+.iconDate {
+    background-image: url(./icons/calendar-icon.svg);
+}
+
+.iconDuring {
+    background-image: url(./icons/stopwatch-icon.svg);
+    background-size: 1.1rem;
+}
+
+.iconService {
+    background-image: url(./icons/service-icon.svg);
+    background-size: 1.1rem;
+}
+
+.iconMessage {
+    background-image: url(./icons/message-icon.svg);
+}
+
+@media (max-width: 399.98px) {
+    .form {
+        width: 100%;
+        padding: 0.5em 1em 0.5em;
+    }
+    .title {
+        font-size: 0.9rem;
+    }
+    .buttonClose {
+        font-size: 1.5rem;
+        right: 0.5rem;
+        top: 0.2rem;
+    }
+
+    .input[type="date"] {
+        width: 100%;
+    }
+
+    .input,
+    .select,
+    .input[type="date"] {
+        height: 1.8rem;
+    }
+    .textarea {
+        min-height: 4rem;
+    }
+    .formButton {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+}
