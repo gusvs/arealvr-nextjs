@@ -7,7 +7,6 @@ import Script from "next/script";
 import { ReactNode, Suspense, useState } from "react";
 import YandexMetrika from "@/src/shared/lib/YandexMetrika/YandexMetrika";
 import { OrderModal } from "@/src/features/make-order/ui/order-modal/order-modal";
-import ButtonOrder from "@/src/shared/ui/ButtonOrder/ButtonOrder";
 
 export default function RootLayout(
   {
@@ -44,9 +43,9 @@ export default function RootLayout(
     <Header />
     {children}
     <ButtonScrollUp />
-    <ButtonOrder onShowModal={() => {
-      setOpened(true);
-    }} />
+    {/*<ButtonOrder onShowModal={() => {*/}
+    {/*  setOpened(true);*/}
+    {/*}} />*/}
     {opened && <OrderModal closingModal={() => setOpened(false)} isOpen={opened} />}
     </body>
     </html>

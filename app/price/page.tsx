@@ -3,6 +3,7 @@ import s from './price.module.css';
 
 export const metadata: Metadata = {
   title: "Цены | Areal VR",
+  description: "Актуальный прайс-лист на услуги клуба",
 };
 
 export default function Price() {

@@ -4,6 +4,7 @@ import promotions from "../../src/shared/data/promotions.json";
 
 export const metadata: Metadata = {
   title: "Акции | Areal VR",
+  description: "Акции - приятный бонус для любителей виртуальной реальности",
 };
 
 export default function News() {

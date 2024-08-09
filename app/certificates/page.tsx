@@ -4,6 +4,7 @@ import certificates from "../../src/shared/data/certificates.json";
 
 export const metadata: Metadata = {
   title: "Подарочные сертификаты | Areal VR",
+  description: "Сертификат на посещение клуба виртуальной реальности - лучший подарок как на день рождения, 8 марта или 23 февраля, так и для просто совместного времяпровождения",
 };
 
 export default function CertificatePage() {

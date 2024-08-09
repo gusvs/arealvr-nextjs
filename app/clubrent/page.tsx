@@ -5,6 +5,7 @@ import s from './clubrent.module.css';
 
 export const metadata: Metadata = {
   title: "Аренда клуба | Areal VR",
+  description: "Проведите семейный праздник, день рождения или корпоратив в клубе Areal VR",
 };
 
 export default function Clubrent() {

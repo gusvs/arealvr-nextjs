@@ -4,6 +4,7 @@ import data from "../../src/shared/data/news.json";
 
 export const metadata: Metadata = {
   title: "Новости | Areal VR",
+  description: "Новости, игровые новинки и важные события нашего клуба",
 };
 
 export default function News() {

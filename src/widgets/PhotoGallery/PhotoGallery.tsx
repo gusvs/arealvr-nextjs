@@ -5,6 +5,10 @@ import s from "./PhotoGallery.module.css";
 export const PhotoGallery = () => {
   const images = [
     {
+      original: '/images/gallery/01.jpg',
+      thumbnail: '/images/gallery/01.jpg',
+    },
+    {
       original: '/images/gallery/02.jpg',
       thumbnail: '/images/gallery/02.jpg',
     },
@@ -15,6 +19,10 @@ export const PhotoGallery = () => {
     {
       original: '/images/gallery/04.jpg',
       thumbnail: '/images/gallery/04.jpg',
+    },
+    {
+      original: '/images/gallery/05.jpg',
+      thumbnail: '/images/gallery/05.jpg',
     },
     {
       original: '/images/gallery/06.jpg',
@@ -33,16 +41,12 @@ export const PhotoGallery = () => {
       thumbnail: '/images/gallery/09.jpg',
     },
     {
-      original: '/images/gallery/12.jpg',
-      thumbnail: '/images/gallery/12.jpg',
+      original: '/images/gallery/10.jpg',
+      thumbnail: '/images/gallery/10.jpg',
     },
     {
-      original: '/images/gallery/14.jpg',
-      thumbnail: '/images/gallery/14.jpg',
-    },
-    {
-      original: '/images/gallery/15.jpg',
-      thumbnail: '/images/gallery/15.jpg',
+      original: '/images/gallery/11.jpg',
+      thumbnail: '/images/gallery/11.jpg',
     },
   ];
 

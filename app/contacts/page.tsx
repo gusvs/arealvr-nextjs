@@ -3,6 +3,7 @@ import s from "./contacts.module.css";
 
 export const metadata: Metadata = {
   title: "Контакты | Areal VR",
+  description: "Информация о графике работы и группах в соцсетях",
 };
 export default function Contacts() {
   return (
